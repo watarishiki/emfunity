@@ -420,3 +420,12 @@ public class COvrvisionUnity
 		return res;
 	}
 }
+
+public class radunity{
+    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+    static extern bool OpenFile();
+
+    public bool openfile() {
+        return OpenFile();
+    }
+}
