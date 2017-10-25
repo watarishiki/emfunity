@@ -421,11 +421,62 @@ public class COvrvisionUnity
 	}
 }
 
-public class radunity{
-    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
-    static extern bool OpenFile();
+//radmandll.dll
+//public class radunity
+//{
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern bool OpenFile();
 
-    public bool openfile() {
-        return OpenFile();
-    }
-}
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern bool CloseFile();
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern bool ComInit();
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern void ComEnd();
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern bool text2num(System.IntPtr buff, System.IntPtr data);
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern void waiting(double second);
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern bool SendData(System.IntPtr command);
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern bool ReadData(System.IntPtr buff, int max_size);
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern bool ResetReadData();
+//    [DllImport("radmandll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
+//    static extern void CommPurge(System.IntPtr hComm);
+
+//    public bool rdopenfile()
+//    {
+//        return OpenFile();
+//    }
+
+//    public bool rdcloseFile()
+//    {
+//        return CloseFile();
+//    }
+//    public bool rdcomInit()
+//    {
+//        return ComInit();
+//    }
+//    public void rdcomEnd()
+//    {
+//        ComEnd();
+//    }
+//    public bool rdtext2num(System.IntPtr buff, System.IntPtr data)
+//    {
+//        return text2num(buff, data);
+//    }
+//    public void rdwaiting()
+//    {
+//        System.Threading.Thread.Sleep(100);
+//    }
+//    public bool rdSendData(System.IntPtr command);
+//    {
+//        return SendData(comannd);
+//    }
+//    public bool rdResetReadData()
+//    {
+//        ResetReadData()
+//    }
+//}

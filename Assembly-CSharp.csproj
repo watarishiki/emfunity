@@ -50,6 +50,7 @@
      <Compile Include="Assets\OvrvisionPro\Scripts\Ovrvision.cs" />
      <Compile Include="Assets\OvrvisionPro\Scripts\OvrvisionHandTracker.cs" />
      <Compile Include="Assets\OvrvisionPro\Scripts\OvrvisionTracker.cs" />
+     <Compile Include="Assets\OvrvisionPro\Scripts\radman.cs" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovChromaticMask.shader" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovTexture.shader" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovHandMaskRev.shader" />
