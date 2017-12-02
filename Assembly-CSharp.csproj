@@ -51,7 +51,9 @@
      <Compile Include="Assets\OvrvisionPro\Scripts\OvrvisionHandTracker.cs" />
      <Compile Include="Assets\OvrvisionPro\Scripts\OvrvisionTracker.cs" />
      <Compile Include="Assets\OvrvisionPro\Scripts\radman.cs" />
+     <Compile Include="Assets\OvrvisionPro\Scripts\trackcube.cs" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovChromaticMask.shader" />
+     <None Include="Assets\Movinarc\PackageUninstaller\README.txt" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovTexture.shader" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovHandMaskRev.shader" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovShadowShader.shader" />

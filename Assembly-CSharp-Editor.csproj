@@ -45,9 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Movinarc\PackageUninstaller\Editor\PUManager.cs" />
+     <Compile Include="Assets\Movinarc\PackageUninstaller\Editor\PUSelection.cs" />
+     <Compile Include="Assets\Movinarc\PackageUninstaller\Editor\TreeNode.cs" />
      <Compile Include="Assets\OvrvisionPro\Editor\OvrvisionEditor.cs" />
      <Compile Include="Assets\OvrvisionPro\Editor\OvrvisionTools.cs" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovChromaticMask.shader" />
+     <None Include="Assets\Movinarc\PackageUninstaller\README.txt" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovTexture.shader" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovHandMaskRev.shader" />
      <None Include="Assets\OvrvisionPro\Resources\Shaders\ovShadowShader.shader" />
@@ -75,11 +79,20 @@
  <Reference Include="UnityEditor.TreeEditor">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
+ <Reference Include="ConsoleE">
+ <HintPath>C:/Users/16watari/Documents/GitHub/emfunity/Assets/ConsoleE/Editor/ConsoleE.dll</HintPath>
+ </Reference>
+ <Reference Include="SharpCompress.3.5">
+ <HintPath>C:/Users/16watari/Documents/GitHub/emfunity/Assets/Movinarc/PackageUninstaller/Editor/SharpCompress.3.5.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/2013/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
