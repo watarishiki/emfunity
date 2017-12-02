@@ -1,0 +1,7 @@
+[SerializeField]
+private $type$ $field_name$;
+public $type$ $property_name$
+{
+    get { return this.$field_name$; } 
+    set { this.$field_name$ = value; }
+}
